@@ -18,3 +18,7 @@ print("The number of rows are {}".format(num_of_rows))
 num_of_rows = df.shape[0]
 print("1. Using df.shape attribute: ", end="")
 print("The number of rows are {}".format(num_of_rows))
+
+num_of_rows = df.index.size
+print("3. Using df.index.shape property: ", end="")
+print("The number of rows are {}".format(num_of_rows))
